@@ -1,0 +1,629 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh; 
+}
+
+.header {
+    background-color: #fff; 
+    padding: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.footer {
+    margin-top: auto;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.logo img {
+    width: 140px; 
+    height: auto;
+}
+
+.navbar {
+    background-color: #000; 
+    color: #fff; 
+    padding: 10px 0; 
+    text-align: center; 
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: inline-block; 
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+.navbar ul li:last-child {
+    margin-right: 0; 
+}
+
+.navbar ul li a {
+    color: #fff; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.3s, background-color 0.3s; 
+}
+
+.navbar ul li a:hover {
+    color: #000; 
+    background-color: #fff; 
+}
+
+.welcome-section {
+    text-align: center; 
+    padding: 50px 0; 
+    background-color: #f0f0f0; 
+}
+
+
+.welcome-section h1 {
+    font-size: 55px; 
+    color: #333; 
+    margin-bottom: 20px; 
+}
+
+.welcome-section p {
+    font-size: 23px; 
+    color: #464646; 
+    margin-bottom: 20px; 
+}
+
+.welcome-section .image-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.welcome-section .image-row img {
+    width: 300px; 
+    height: auto; 
+    margin: 0 40px; 
+}
+
+.section-divider {
+    height: 10px; 
+    background-color: #111111; 
+    width: 100%; 
+}
+.invisible-section-divider {
+    height: 10px; 
+    background-color: #f0f0f0; 
+    width: 100%; 
+}
+
+
+
+.events-section h2 {
+    font-size: 55px; 
+    color: #333; 
+    text-align: center; 
+}
+
+
+.events-section {
+    text-align: center; 
+    padding: 50px 0; 
+    background-color: #f0f0f0; 
+    margin-top: 0;
+}
+
+.events-section h2 {
+    font-size: 36px; 
+    color: #333; 
+    margin-bottom: 20px; 
+}
+
+
+.news-section {
+    text-align: center; 
+    padding: 50px 0; 
+    background-color: #f0f0f0;
+    margin-top: 0;
+}
+
+.news-section h3 {
+    font-size: 36px; 
+    color: #333; 
+    margin-bottom: 20px; 
+    margin-top: 20px; 
+}
+
+
+.operation-section {
+    text-align: center; 
+    padding: 50px 0; 
+    background-color: #f0f0f0; 
+    margin-top: 0; 
+}
+
+.operation-section h4 {
+    font-size: 36px; 
+    color: #333; 
+    margin-bottom: 20px; 
+    margin-top: 0; 
+}
+
+
+.supporter-section {
+    padding: 50px 0; 
+    background-color: #ffffff; 
+}
+
+.supporter-section h5 {
+    font-size: 36px; 
+    color: #333; 
+    margin-bottom: 20px; 
+    margin-top: 20px; 
+}
+
+
+.events-section .image-row,
+.news-section .image-row,
+.operation-section .image-row,
+.supporter-section .image-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.events-section .image-row img,
+.news-section .image-row img,
+.operation-section .image-row img,
+.supporter-section .image-row img {
+    width: 300px; 
+    height: auto; 
+    margin: 0 40px; 
+}
+.top-image {
+    
+    
+    width: 450px;
+    height: auto;
+    margin-bottom: 10px;
+}
+ 
+ .contact-section {
+    text-align: center;
+    padding: 50px 0;
+    flex-grow: 1;
+    background-color: #f0f0f0;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column, .right-column {
+    flex-basis: 30%;
+}
+
+.center-column {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+h2, h3, h4 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.bold-text {
+    font-weight: bold;
+}
+.cursive-text {
+    font-weight:italic;
+}
+.cursive {
+    font-style: italic;
+}
+
+.membership-section {
+    text-align: center; 
+    padding: 50px 0; 
+    background-color: #f0f0f0; 
+}
+
+.membership-section h5 {
+    font-size: 36px; 
+    color: #333; 
+    margin-bottom: 20px; 
+}
+
+.membership-section p {
+    font-size: 25px; 
+    color: #464646; 
+    margin-bottom: 20px; 
+}
+
+.membership-link {
+    color: #000; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: color 0.3s; 
+}
+
+.membership-link:hover {
+    color: #0056b3; 
+}
+.membership-header-link, .membership-link {
+    color: #000; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: color 0.3s; 
+}
+
+.membership-header-link:hover, .membership-link:hover {
+    color: #0056b3; 
+}
+
+
+.membership-header-link h5 {
+    color: inherit; 
+    font-size: 36px; 
+    
+}
+
+.memberinfo-section, .applianceform-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f0f0f0;
+}
+
+.memberinfo-section h1 {
+    font-size: 36px;
+    color: #292929;
+    margin-bottom: 20px;
+}
+.memberinfo-section h2 {
+    font-size: 30px;
+    color: #292929;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.memberinfo-section img {
+    max-width: 45%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    margin-bottom: 20px; 
+}
+
+.applianceform-section h1 {
+    font-size: 30px;
+    color: #292929;
+    margin-bottom: 15px;
+}
+
+.memberinfo-section p, .applianceform-section p {
+    font-size: 18px;
+    color: #464646;
+    margin-bottom: 20px;
+}
+
+.memberinfo-section .bold-text, .applianceform-section .bold-text {
+    font-weight: bold;
+}
+
+.applianceform-section {
+    margin-top: 0; 
+}
+
+.applianceform-section .cursive-text {
+    font-style: italic; 
+}
+
+.benefits-list {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.benefits-list li {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.benefits-list li::before {
+    content: '\2022'; 
+    color: #333;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+
+.skrivarhubben-intro {
+    text-align: center; 
+    padding: 50px 0; 
+    background-color: #f0f0f0; 
+}
+
+
+.skrivarhubben-intro .content-wrapper {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 20px; 
+}
+
+
+.skrivarhubben-intro h1 {
+    font-size: 55px; 
+    color: #292929; 
+    margin-bottom: 20px; 
+}
+
+
+.skrivarhubben-intro p {
+    font-size: 30px; 
+    color: #464646; 
+    margin-bottom: 40px; 
+    margin-right: 50px; 
+}
+
+
+
+.event-skrivarhubben {
+    padding: 50px 0; 
+    background-color: #f0f0f0; 
+}
+
+
+.event-skrivarhubben {
+    display: none;
+}
+
+.event-skrivarhubben .content-wrapper {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    margin-top: 20px; 
+}
+
+
+.event-skrivarhubben img {
+    max-width: 55%; 
+    height: auto; 
+    margin-right: 100px; 
+}
+
+
+.event-skrivarhubben .text-content {
+    flex-grow: 1; 
+}
+
+
+.event-skrivarhubben .text-content h1 {
+    font-size: 55px; 
+    color: #292929; 
+    margin-bottom: 20px; 
+}
+
+.event-skrivarhubben .text-content h2 {
+    font-size: 70px; 
+    color: #292929; 
+    margin-bottom: 150px; 
+}
+
+.limited-width-container {
+    max-width: 2500px; 
+}
+
+
+.event-skrivarhubben .text-content p {
+    font-size: 30px; 
+    color: #464646; 
+    margin-bottom: 40px; 
+    margin-right: 50px;
+}
+
+
+.event-skrivarhubben .text-content ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+
+.event-skrivarhubben .text-content ul li {
+    font-size: 40px; 
+    color: #141414; 
+    margin-bottom: 10px; 
+    margin-left: 40px;
+}
+
+
+.event-skrivarhubben .text-content ul li::before {
+    content: '\2022'; 
+    color: #333; 
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+.buttons-container {
+    display: flex;
+    justify-content: center; 
+    background-color: #f0f0f0;
+}
+
+.show-event-btn {
+    background-color: #000; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    margin: 0 10px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.show-event-btn:hover {
+    background-color: #fff; 
+    color: #000; 
+}
+
+.show-more-btn {
+    background-color: #000; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    margin: 0 10px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.show-more-btn:hover {
+    background-color: #fff; 
+    color: #000; 
+}
+
+
+.author-section {
+    padding: 50px 0;
+    background-color: #f0f0f0;
+    display: none;
+}
+
+.author-section h1 {
+    font-size: 50px;
+    color: #292929;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.author-container {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: center; 
+    margin-top: 20px;
+    margin-left: 50px; 
+    margin-right: 50px; 
+}
+
+.author-image {
+    margin-right: 20px;
+}
+
+.author-image img {
+    max-width: 400px; 
+    height: auto;
+}
+
+.author-info {
+    flex-grow: 1;
+}
+
+.author-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.author-description {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.photographer-info {
+    font-size: 14px;
+    color: #666;
+}
+
+
+.event-skrivarhubben-current {
+    padding: 50px 0; 
+    background-color: #f0f0f0; 
+}
+
+
+.event-skrivarhubben-current .content-wrapper {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    margin-top: 20px; 
+}
+
+
+.event-skrivarhubben-current img {
+    max-width: 55%; 
+    height: auto; 
+    margin-right: 100px; 
+}
+
+
+.event-skrivarhubben-current .text-content {
+    flex-grow: 1; 
+}
+
+
+.event-skrivarhubben-current .text-content h1 {
+    font-size: 55px; 
+    color: #292929; 
+    margin-bottom: 20px; 
+}
+
+.event-skrivarhubben-current .text-content h2 {
+    font-size: 70px; 
+    color: #292929; 
+    margin-bottom: 150px; 
+}
+
+
+.event-skrivarhubben-current .text-content p {
+    font-size: 30px; 
+    color: #464646; 
+    margin-bottom: 40px; 
+    margin-right: 50px;
+}
+
+
+.event-skrivarhubben-current .text-content ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+
+.event-skrivarhubben-current .text-content ul li {
+    font-size: 40px; 
+    color: #141414; 
+    margin-bottom: 10px; 
+    margin-left: 40px;
+}
+
+
+.event-skrivarhubben-current .text-content ul li::before {
+    content: '\2022'; 
+    color: #333; 
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
